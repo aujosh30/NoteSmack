@@ -8,8 +8,8 @@
 User.delete_all
 
 User.create!(FirstName: 'Josh', LastName: 'Kendrick', Email: 'jck0004@auburn.edu',
-              UserName: 'aujosh30', Password: '1234', School: 'Auburn University', DateCreate: Time.new)
+              UserName: 'aujosh30', Password: '1234', School: 'Auburn University', DateCreated: Time.new)
 
 
 User.create!(FirstName: 'Scott', LastName: 'Blankenship', Email: 'scott.blankenship@Okstate.edu',
-             UserName: 'sBlanck12', Password: '1234', School: 'Okalahoma State', DateCreate: Time.new)
+             UserName: 'sBlank12', Password: '1234', School: 'Oklahoma State', DateCreated: Time.new)
