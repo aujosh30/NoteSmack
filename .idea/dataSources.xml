@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="766186206">
-    <data-source source="LOCAL" name="SQLite - NotesSmackDB" uuid="028d4590-fd8b-46d9-9b7c-504c7c7f6adf">
-      <driver-ref>sqlite.xerial</driver-ref>
+  <component name="DataSourceManagerImpl" format="xml" hash="832962354">
+    <data-source source="LOCAL" name="Rails NoteSmack: development" uuid="56bda496-079a-4b3e-a48f-654a7ac878ad">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/development.MySQL</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails NoteSmack: test" uuid="9c383a99-87a1-4956-ba0c-2f92d1566b06">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/test.MySQL</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails NoteSmack: production" uuid="8df1e1f6-9764-422d-860d-9b13fb67a3a4">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/production.MySQL</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - development.MySQL@localhost" uuid="f11d0396-367b-4686-9109-c6c17177b03d">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db/development.MySQL</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
       <libraries />
     </data-source>
   </component>
