@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="832962354">
+  <component name="DataSourceManagerImpl" format="xml" hash="3533426768">
     <data-source source="LOCAL" name="Rails NoteSmack: development" uuid="56bda496-079a-4b3e-a48f-654a7ac878ad">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/db/development.MySQL</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <jdbc-url>jdbc:mysql://NSmackDEV01.db.10223449.hostedresource.com/NSmackDEV01</jdbc-url>
+      <user-name>NSmackDEV01</user-name>
+      <user-password>dfeedfc5dfd9dfefdfdbdfdfdfc3dfd9df8fdf98</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails NoteSmack: test" uuid="9c383a99-87a1-4956-ba0c-2f92d1566b06">
@@ -32,6 +32,19 @@
       <jdbc-url>jdbc:mysql://localhost:3306/db/development.MySQL</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfc7dff3dfe4dfdddfe1dffbdffddfcd</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - @NSmackDEV01.db.10223449.hostedresource.com" uuid="13977674-00d4-49c6-a500-cc6f34fa397c">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://NSmackDEV01.db.10223449.hostedresource.com:3306</jdbc-url>
+      <user-name>NSmackDEV01</user-name>
+      <user-password>dfeedfc5dfd9dfefdfdbdfdfdfc3dfd9df8fdf98</user-password>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
