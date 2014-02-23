@@ -11,16 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140218044502) do
+ActiveRecord::Schema.define(version: 20140222211640) do
+
+  create_table "note_sets", force: true do |t|
+    t.string   "title"
+    t.string   "description"
+    t.string   "school_id"
+    t.string   "class"
+    t.string   "section"
+    t.string   "type"
+    t.datetime "class_date"
+    t.string   "username"
+    t.datetime "submit_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
-    t.string   "FirstName"
-    t.string   "LastName"
-    t.string   "Email"
-    t.string   "UserName"
-    t.string   "Password"
-    t.string   "School"
-    t.datetime "DateCreated"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "username"
+    t.string   "password_digest"
+    t.string   "school"
+    t.datetime "date_created"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
