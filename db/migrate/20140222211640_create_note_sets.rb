@@ -4,7 +4,7 @@ class CreateNoteSets < ActiveRecord::Migration
       t.string :title
       t.string :description
       t.string :school_id
-      t.string :class
+      t.string :class_name
       t.string :section
       t.string :type
       t.datetime :class_date

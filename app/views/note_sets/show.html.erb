@@ -7,22 +7,22 @@
 
 <p>
   <strong>Description:</strong>
-  <%= @note_set.Description %>
+  <%= @note_set.description %>
 </p>
 
 <p>
-  <strong>Schoolid:</strong>
-  <%= @note_set.SchoolID %>
+  <strong>School:</strong>
+  <%= @note_set.school_id %>
 </p>
 
 <p>
   <strong>Class:</strong>
-  <%= @note_set.Class %>
+  <%= @note_set.class_name%>
 </p>
 
 <p>
-  <strong>Classdate:</strong>
-  <%= @note_set.ClassDate %>
+  <strong>ClassDate:</strong>
+  <%= @note_set.class_date %>
 </p>
 
 <%= link_to 'Edit', edit_note_set_path(@note_set) %> |

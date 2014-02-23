@@ -2028,7 +2028,7 @@
       <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="description" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="school_id" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="class" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="class_name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="section" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="type" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="class_date" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>

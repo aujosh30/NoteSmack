@@ -2,11 +2,12 @@
 development:
   adapter: mysql2
   encoding: utf8
+  host: NSmackDEV01.db.10223449.hostedresource.com
   reconnect: false
-  database: db/development.MySQL
+  database: NSmackDEV01
   pool: 5
-  username: root
-  password: mYNwKQWg
+  username: NSmackDEV01
+  password: DosEquis%2
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and

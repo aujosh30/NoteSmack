@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20140222211640) do
     t.string   "title"
     t.string   "description"
     t.string   "school_id"
-    t.string   "class"
+    t.string   "class_name"
     t.string   "section"
     t.string   "type"
     t.datetime "class_date"
